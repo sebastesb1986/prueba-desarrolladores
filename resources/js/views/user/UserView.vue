@@ -2,7 +2,6 @@
     <div class="container py-2">
         <main>
             <div class="row row-cols-1 row-cols-md-3 mb-3">
-
                 <div class="col">
                     <img :src="imageUrl" id="logo-amazon" alt="Logo Amazon">
                     <div class="card mb-4 rounded-3 shadow-sm">
@@ -25,12 +24,11 @@
                                     <p class="text-danger" v-if="validation.errors.password && validation.errors.password.length > 0"><i class="bi bi-exclamation"></i>{{ validation.errors.password[0] }}</p>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="password_confirmation" class="col-form-label fw-bold">Confirmar nueva contraseña</label>
+                                    <label for="password_confirmation" class="col-form-label fw-bold">Vuelve a escribir la contraseña</label>
                                     <input type="password" class="form-control" id="password_confirmation" v-model="user.password_confirmation" :class="{ 'is-invalid': validation.errors.password_confirmation && validation.errors.password_confirmation.length > 0 }" @input="clearError('password_confirmation')">
                                     <p class="text-danger" v-if="validation.errors.password_confirmation && validation.errors.password_confirmation.length > 0"><i class="bi bi-exclamation"></i>{{ validation.errors.password_confirmation[0] }}</p>
-
                                 </div>
-                                <button type="button" class="btn text-dark btn-warning" @click="createUser" style="width: 100%;">Crear tu cuenta de amazon</button>
+                                <button type="button" class="btn text-dark btn-warning fw-medium" @click="createUser" style="width: 100%;">Crear tu cuenta de amazon</button>
                             </form>
                             <div class="col-12 mt-4">
                                 <p>Al crear una cuenta, aceptas las <a href="#" class="text-decoration-none">Condiciones de Uso</a> y e
@@ -54,6 +52,7 @@
         </main>
     </div>
 </template>
+
 <style>
 
     #logo-amazon{

@@ -20,7 +20,7 @@
         </div>
 
         <!-- Paginación -->
-        <div class="mt-auto pt-5">
+        <div class="mt-auto pt-5 d-flex" style="min-height: 50px;">
             <nav aria-label="Page navigation">
                 <ul class="pagination justify-content-center">
                     <li class="page-item" :class="{ 'disabled': !users.prev_page_url }">
@@ -43,7 +43,7 @@ export default {
 
     data() {
         return {
-            users: [], // Cambiado a null para manejar la carga inicial
+            users: [],
         };
     },
 
