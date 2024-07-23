@@ -6,7 +6,7 @@
                     <img :src="imageUrl" id="logo-amazon" alt="Logo Amazon">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-body">
-                            <h2 class="my-2 fw-bold">Crear cuenta</h2>
+                            <h2 class="my-2 fw-medium">Crear cuenta</h2>
                             <form>
                                 <div class="mb-3">
                                     <label for="username" class="col-form-label fw-bold">Tu nombre</label>

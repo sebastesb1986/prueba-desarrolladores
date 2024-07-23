@@ -14,6 +14,28 @@ Una vez se registra un usuario, aparecera al lado derecho en una tabla. Se manej
 - JavaScript
 - Base de datos: PostgreSQL
 
+## Estructura de la aplicación
+
+En vista que utilize vue3 integrado a laravel 11, la estructura de los componentes, vistas, diseños y demás es la siguiente para su revisión:
+
+- resources
+
+-- js
+---- app.js
+
+--- components
+---- App.vue
+
+--- router
+---- index.js
+
+--- views
+---- users
+----- UserView.vue
+----- UserList.vue
+
+Dentro de la carpeta resources en views y en welcome.blade.php esta configurado @vite para js y css para la correcta implementación de vue3.
+
 ## Observación
 
 Cualquier inquietud u observación puedes escribirme a salgadosb1986@gmail.com, en cuanto pueda te brindare el soporte para el caso en el menor tiempo posible.
