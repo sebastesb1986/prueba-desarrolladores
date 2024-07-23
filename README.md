@@ -14,8 +14,6 @@ Una vez se registra un usuario, aparecera al lado derecho en una tabla. Se manej
 - JavaScript
 - Base de datos: PostgreSQL
 
-## Agregación a un sitio personalizado
-
 ## Observación
 
 Cualquier inquietud u observación puedes escribirme a salgadosb1986@gmail.com, en cuanto pueda te brindare el soporte para el caso en el menor tiempo posible.
