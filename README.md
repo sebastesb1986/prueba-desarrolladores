@@ -29,13 +29,13 @@ git clone https://github.com/sebastesb1986/prueba-desarrolladores.git
 
 2. Genera la clave de la aplicación y realiza las instalaciones necesarias:
 
+```plaintext
 php artisan key
 composer install
 npm install
 
 3. Copia el archivo `.env.example` a `.env` y configura tu entorno local:
 
-```plaintext
 DB_CONNECTION=pgsql # o el de tu preferencia
 DB_HOST=TU HOST
 DB_PORT=TU PUERTO
