@@ -52,8 +52,8 @@ git clone https://github.com/sebastesb1986/prueba-desarrolladores.git
 2. Genera la clave de la aplicación y realiza las instalaciones necesarias:
 
 ```plaintext
-php artisan key
 composer install
+
 npm install
 
 3. Copia el archivo `.env.example` a `.env` y configura tu entorno local:
@@ -65,6 +65,9 @@ DB_DATABASE=TU_DATABASE
 DB_USERNAME=TU USERNAME
 DB_PASSWORD=TU_PASSWORD
 
+y ahora:
+
+php artisan key:generate
 
 4. Crear la base de datos en tu entorno(mysql, postgres, sqlserver, sqlite) y asinar el nombre para el caso TU_DATABASE
 
