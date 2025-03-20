@@ -9,5 +9,14 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true, // Recarga la página en tiempo real cuando se actualiza un archivo en el directorio de entrada
         }),
-    ]
+    ],
+    server: {
+        https: true, // Habilita HTTPS para el servidor de desarrollo
+    },
+    build: {
+        assetsDir: 'assets',
+        outDir: 'public/build/', // Asegúrate de que esta ruta coincida con la configuración de Laravel
+        manifest: 'manifest.json',
+        // Otros ajustes de construcción según tus necesidades
+    },
 });

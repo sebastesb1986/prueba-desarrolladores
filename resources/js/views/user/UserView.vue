@@ -2,7 +2,7 @@
     <div class="container py-2">
         <main>
             <div class="row row-cols-1 row-cols-md-3 mb-3">
-                <div class="col">
+                <div class="col" style="width: 35%;">
                     <img :src="imageUrl" id="logo-amazon" alt="Logo Amazon">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-body">
@@ -31,7 +31,7 @@
                                 <button type="button" class="btn text-dark btn-warning fw-medium" @click="createUser" style="width: 100%;">Crear tu cuenta de amazon</button>
                             </form>
                             <div class="col-12 mt-4">
-                                <p>Al crear una cuenta, aceptas las <a href="#" class="text-decoration-none">Condiciones de Uso</a> y e
+                                <p>Al crear una cuenta, aceptas las <a href="#" class="text-decoration-none">Condiciones de Uso</a> y el
                                     <a href="#" class="text-decoration-none">Aviso de Privacidad</a> de Amazon.
                                 </p>
                             </div>
