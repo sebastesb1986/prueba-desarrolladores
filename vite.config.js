@@ -18,5 +18,6 @@ export default defineConfig({
     },
     server: {
         https: true, // Asegúrate de que Vite sirva el contenido de desarrollo sobre HTTPS
-    }
+    },
+    base: '/build/',
 });
