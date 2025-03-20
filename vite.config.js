@@ -10,9 +10,6 @@ export default defineConfig({
             refresh: true, // Recarga la página en tiempo real cuando se actualiza un archivo en el directorio de entrada
         }),
     ],
-    server: {
-        https: true, // Habilita HTTPS para el servidor de desarrollo
-    },
     build: {
         assetsDir: 'assets',
         outDir: 'public/build/', // Asegúrate de que esta ruta coincida con la configuración de Laravel
